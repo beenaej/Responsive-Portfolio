@@ -228,3 +228,102 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+@media (min-width:769px) and (max-width: 980px) {
+	.container{
+		width: 90%;
+	}
+
+	#mastheader{
+		width: 94%;
+	}
+
+	#main-container{
+		width: 94%;
+	}
+
+	section .main-container{
+		width: 50%;
+		height: 50%;
+		padding: 2;
+		margin-left: 2px;
+		margin-right: 1px;
+		float: left;
+		
+	}
+
+	section .auth-image{
+		float: none;
+		height: 150px;
+		width: 100px;
+		margin-left: 150px;
+		clear: both;
+
+	}
+
+	.sidebar{
+		width: 30%;
+		margin-left: 1px;
+		float: right;
+		margin-right: 0px;
+	}
+
+	.work auth-image{
+		width: 100%;
+		overflow: auto;
+	}
+
+	footer{
+		width: 100%;
+	}
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+	.container{
+		width: 100%;
+	}
+
+	a#logo{
+		margin-left: 10px;
+	}
+
+	nav a{
+		padding-left: 5px;
+	}
+
+	nav a:last-child{
+		margin-right: 10px;
+	}
+
+	section.main-container {
+		width: 100%;
+		height: auto;
+		padding: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+		float: none;
+		max-width: 750px;
+		
+	}
+
+	section .auth-image{
+		float: left;
+		height: 150px;
+		width: 100px;
+		margin-left: 10px;
+		
+	}
+
+	p .main-container{
+		width: 100%;
+		}
+
+	section.sidebar{
+		width: 100%;
+		max-width: 750px;
+		height: 50%;
+		margin-left: 10px;
+		float: left;
+		margin-right: 10px;
+	}
+}
